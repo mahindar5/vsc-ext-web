@@ -54,6 +54,7 @@ md ".github/workflows"
 add D:\MyOrg\vsc-ext-web\src\build-info.ts
 add D:\MyOrg\vsc-ext-web\.github\workflows\build-deploy-pages.yml
 update       base-href: "/vsc-ext-web/" in above yml
+update ng-common-mat-lib yml to include repos=("my-app" "vsc-ext-web")
 
 delete app folder
 

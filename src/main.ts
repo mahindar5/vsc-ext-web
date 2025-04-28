@@ -7,10 +7,8 @@ import { BUILD_INFO as myAppBUILD_INFO } from './build-info';
 
 
 export const routes: Routes = [
-	{ path: '', redirectTo: 'vsc', pathMatch: 'full' },
 	{
-		path: 'vsc',
-		loadComponent: () => import('@mahindar5/ng-common-mat-lib/components/json-uploader').then(m => m.JsonUploaderComponent),
+		path: '', loadComponent: () => import('@mahindar5/ng-common-mat-lib/components/json-uploader').then(m => m.JsonUploaderComponent),
 	},]
 fetchProxy();
 bootstrapApplication(AppComponent, configureApplication(routes, { BUILD_INFO: { myAppBUILD_INFO, matBUILD_INFO, commonLibBUILD_INFO } }))
