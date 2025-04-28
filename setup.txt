@@ -1,3 +1,4 @@
+replace ng-mat-app with in this file vsc-ext-web
 npm install -g @angular/cli@latest
 ng new vsc-ext-web --routing --experimental-zoneless
 
@@ -25,16 +26,47 @@ git init
 git config user.name "mahindar5"
 git config user.email "mahindar.275@gmail.com"
 
-git remote add origin https://github.com/mahindar5/ng-mat-app.git
+git remote add origin https://github.com/mahindar5/vsc-ext-web.git
 git remote set-url origin https://github.com/mahindar5/vsc-ext-web.git
 git branch -M main
 git push -u origin main
 
-md ".github/workflows"
-add D:\MyOrg\vsc-ext-web\src\build-info.ts
-add D:\MyOrg\my-app\.github\workflows\build-deploy-pages.yml
-
 add new repo to common lib https://github.com/users/mahindar5/packages/npm/common-lib/settings
 
 change source to github actions to enable github pahges
-https://github.com/mahindar5/ng-mat-app/settings/pages
+https://github.com/mahindar5/vsc-ext-web/settings/pages
+
+md ".github/workflows"
+add D:\MyOrg\vsc-ext-web\src\build-info.ts
+add D:\MyOrg\vsc-ext-web\.github\workflows\build-deploy-pages.yml
+update       base-href: "/vsc-ext-web/" in above yml
+
+delete app folder
+
+update tsconfig.json
+,
+		"paths": {
+			"@mahindar5/common-lib": [
+				"../common-lib/dist/"
+			],
+			"@mahindar5/ng-common-mat-lib/*": [
+				"../ng-mat-app/dist/ng-common-mat-lib/*"
+			],
+			"@mahindar5/ng-common-mat-lib": [
+				"../ng-mat-app/dist/ng-common-mat-lib"
+			],
+			// "@mahindar5/common-lib": [
+			// 	"../common-lib/src/"
+			// ],
+			// "@mahindar5/ng-common-mat-lib/*": [
+			// 	"../ng-mat-app/projects/ng-common-mat-lib/**/*"
+			// ],
+			// "@mahindar5/ng-common-mat-lib": [
+			// 	"../ng-mat-app/projects/ng-common-mat-lib/src"
+			// ],
+		},
+
+update main.ts
+fetchProxy();
+bootstrapApplication(AppComponent, configureApplicationWithConfig({ BUILD_INFO: { myAppBUILD_INFO, matBUILD_INFO, commonLibBUILD_INFO } }))
+	.catch((err) => console.error(err));

@@ -1,6 +1,9 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { AppComponent } from './app/app.component';
+import { BUILD_INFO as commonLibBUILD_INFO, fetchProxy } from '@mahindar5/common-lib';
+import { configureApplicationWithConfig, BUILD_INFO as matBUILD_INFO } from '@mahindar5/ng-common-mat-lib';
+import { AppComponent, } from '@mahindar5/ng-common-mat-lib/components/app';
+import { BUILD_INFO as myAppBUILD_INFO } from './build-info';
 
-bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.error(err));
+fetchProxy();
+bootstrapApplication(AppComponent, configureApplicationWithConfig({ BUILD_INFO: { myAppBUILD_INFO, matBUILD_INFO, commonLibBUILD_INFO } }))
+	.catch((err) => console.error(err));

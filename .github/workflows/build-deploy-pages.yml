@@ -1,0 +1,22 @@
+name: build-deploy-pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  repository_dispatch:
+    types: [ng-common-mat-lib-updated]
+
+permissions:
+  contents: write
+  id-token: write
+  pages: write
+  packages: read
+
+jobs:
+  deploy-app:
+    uses: mahindar5/ng-pwa-app/.github/workflows/common-build-deploy-pages.yml@main
+    with:
+      base-href: "/vsc-ext-web/"
+      npm-packages: "@mahindar5/common-lib@latest @mahindar5/ng-common-mat-lib@latest"
