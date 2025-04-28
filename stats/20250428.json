@@ -12430,7 +12430,7 @@
       "format": "esm"
     },
     "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-      "bytes": 7279,
+      "bytes": 7317,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -13063,7 +13063,7 @@
       "format": "esm"
     },
     "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-json-uploader.mjs": {
-      "bytes": 14497,
+      "bytes": 14558,
       "imports": [
         {
           "path": "node_modules/@angular/common/fesm2022/common.mjs",
@@ -13235,7 +13235,7 @@
     }
   },
   "outputs": {
-    "main-M7U5KKDJ.js": {
+    "main-UPRV2HJG.js": {
       "imports": [
         {
           "path": "chunk-4B7UP55T.js",
@@ -13298,7 +13298,7 @@
           "kind": "dynamic-import"
         },
         {
-          "path": "chunk-KAW3AT5Q.js",
+          "path": "chunk-ZKFJE5WP.js",
           "kind": "dynamic-import"
         }
       ],
@@ -13317,7 +13317,7 @@
           "bytesInOutput": 5226
         },
         "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-          "bytesInOutput": 1841
+          "bytesInOutput": 1879
         },
         "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-common-navigation-menu.mjs": {
           "bytesInOutput": 1722
@@ -13335,7 +13335,7 @@
           "bytesInOutput": 266
         }
       },
-      "bytes": 20209
+      "bytes": 20247
     },
     "chunk-CV7IDDSX.js": {
       "imports": [
@@ -14188,7 +14188,7 @@
       },
       "bytes": 86323
     },
-    "chunk-KAW3AT5Q.js": {
+    "chunk-ZKFJE5WP.js": {
       "imports": [
         {
           "path": "chunk-Y2OLQCFV.js",
@@ -14225,10 +14225,10 @@
       "entryPoint": "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-json-uploader.mjs",
       "inputs": {
         "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-json-uploader.mjs": {
-          "bytesInOutput": 5402
+          "bytesInOutput": 5444
         }
       },
-      "bytes": 6109
+      "bytes": 6152
     },
     "chunk-Y2OLQCFV.js": {
       "imports": [
