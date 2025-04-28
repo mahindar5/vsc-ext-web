@@ -12430,7 +12430,7 @@
       "format": "esm"
     },
     "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-      "bytes": 7261,
+      "bytes": 7258,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -13184,7 +13184,7 @@
       "format": "esm"
     },
     "src/main.ts": {
-      "bytes": 855,
+      "bytes": 797,
       "imports": [
         {
           "path": "node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
@@ -13225,7 +13225,7 @@
       "format": "esm"
     },
     "src/styles.scss": {
-      "bytes": 185694,
+      "bytes": 185744,
       "imports": []
     },
     "angular:styles/global:styles": {
@@ -13240,7 +13240,7 @@
     }
   },
   "outputs": {
-    "main-D6ICLAPS.js": {
+    "main-2MT5ZID5.js": {
       "imports": [
         {
           "path": "chunk-4B7UP55T.js",
@@ -13326,7 +13326,7 @@
           "bytesInOutput": 5226
         },
         "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-          "bytesInOutput": 1823
+          "bytesInOutput": 1820
         },
         "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-common-navigation-menu.mjs": {
           "bytesInOutput": 1722
@@ -13341,10 +13341,10 @@
           "bytesInOutput": 690
         },
         "src/main.ts": {
-          "bytesInOutput": 266
+          "bytesInOutput": 219
         }
       },
-      "bytes": 20224
+      "bytes": 20174
     },
     "chunk-CV7IDDSX.js": {
       "imports": [
@@ -15210,18 +15210,18 @@
       },
       "bytes": 165583
     },
-    "styles-OOF3F5GD.css": {
+    "styles-VDTVFPYB.css": {
       "imports": [],
       "entryPoint": "angular:styles/global:styles",
       "inputs": {
         "src/styles.scss": {
-          "bytesInOutput": 171121
+          "bytesInOutput": 171161
         },
         "angular:styles/global:styles": {
           "bytesInOutput": 0
         }
       },
-      "bytes": 171122
+      "bytes": 171162
     }
   }
 }
