@@ -1,4 +1,7 @@
 replace ng-mat-app with in this file vsc-ext-web
+
+copy .vscode/settings
+
 npm install -g @angular/cli@latest
 ng new vsc-ext-web --routing --experimental-zoneless
 
@@ -16,10 +19,18 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 ```
 
+add port
+          "builder": "@angular-devkit/build-angular:dev-server",
+		  "options": {
+			  "port": 4301
+		  },
+            "inlineStyleLanguage": "scss",
+            "statsJson": true,
+
 ng add @angular/pwa
 npm uninstall zone.js
 
-npm install @mahindar5/common-lib@latest @mahindar5/ng-common-mat-lib@latest 
+npm install @mahindar5/common-lib@latest @mahindar5/ng-common-mat-lib@latest
 
 create repo in git site
 git init
