@@ -26,6 +26,7 @@ git config user.name "mahindar5"
 git config user.email "mahindar.275@gmail.com"
 
 git remote add origin https://github.com/mahindar5/ng-mat-app.git
+git remote set-url origin https://github.com/mahindar5/vsc-ext-web.git
 git branch -M main
 git push -u origin main
 
