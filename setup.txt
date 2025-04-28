@@ -1,0 +1,39 @@
+npm install -g @angular/cli@latest
+ng new vsc-ext-web --routing --experimental-zoneless
+
+If you're using `ng-common-mat-lib`, you don't need to install Angular Material separately. Instead, add the following to your `index.html` and import themes directly from the library:
+```html
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+```
+
+Also, include this in your `styles.scss`:
+```scss
+@import '@mahindar5/ng-common-mat-lib/styles/index';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+```
+
+ng add @angular/pwa
+npm uninstall zone.js
+
+npm install @mahindar5/common-lib@latest @mahindar5/ng-common-mat-lib@latest 
+
+create repo in git site
+git init
+git config user.name "mahindar5"
+git config user.email "mahindar.275@gmail.com"
+
+git remote add origin https://github.com/mahindar5/ng-mat-app.git
+git branch -M main
+git push -u origin main
+
+md ".github/workflows"
+add D:\MyOrg\vsc-ext-web\src\build-info.ts
+add D:\MyOrg\my-app\.github\workflows\build-deploy-pages.yml
+
+add new repo to common lib https://github.com/users/mahindar5/packages/npm/common-lib/settings
+
+change source to github actions to enable github pahges
+https://github.com/mahindar5/ng-mat-app/settings/pages
