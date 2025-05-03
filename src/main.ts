@@ -14,5 +14,4 @@ bootstrapApplication(AppComponent, await configureApplication(routes, {
 	BUILD_INFO: { myAppBUILD_INFO, matBUILD_INFO, commonLibBUILD_INFO },
 	excludeAIService: true,
 	hideMenuIcon: true,
-}))
-	.catch((err) => console.error(err));
+})).catch((err) => console.error(err));
