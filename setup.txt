@@ -85,3 +85,5 @@ update main.ts
 fetchProxy();
 bootstrapApplication(AppComponent, configureApplicationWithConfig({ BUILD_INFO: { myAppBUILD_INFO, matBUILD_INFO, commonLibBUILD_INFO } }))
 	.catch((err) => console.error(err));
+
+Add  class="azure-dark-theme" to index.html if component is directly consumed
