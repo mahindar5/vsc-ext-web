@@ -11726,7 +11726,7 @@
       "format": "esm"
     },
     "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-      "bytes": 7037,
+      "bytes": 7033,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -12283,7 +12283,7 @@
     }
   },
   "outputs": {
-    "main-M2SYVNY2.js": {
+    "main-DGPTUKPQ.js": {
       "imports": [
         {
           "path": "chunk-B7XZ3WBA.js",
@@ -12344,7 +12344,7 @@
           "bytesInOutput": 5235
         },
         "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-          "bytesInOutput": 1835
+          "bytesInOutput": 1831
         },
         "node_modules/@angular/material/fesm2022/progress-spinner.mjs": {
           "bytesInOutput": 8486
@@ -12368,7 +12368,7 @@
           "bytesInOutput": 162
         }
       },
-      "bytes": 54245
+      "bytes": 54241
     },
     "chunk-ZV2RDTO3.js": {
       "imports": [
