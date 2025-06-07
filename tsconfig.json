@@ -27,6 +27,12 @@
 			"@mahindar5/ng-common-mat-lib": [
 				"../ng-mat-app/dist/ng-common-mat-lib"
 			],
+			"@mahindar5/ng-common-lib/*": [
+				"../ng-mat-app/dist/ng-common-lib/*"
+			],
+			"@mahindar5/ng-common-lib": [
+				"../ng-mat-app/dist/ng-common-lib"
+			],
 			"@mahindar5/common-lib": [
 				"../common-lib/src/"
 			],
