@@ -8287,7 +8287,7 @@
       "format": "esm"
     },
     "node_modules/@mahindar5/ng-common-lib/fesm2022/mahindar5-ng-common-lib.mjs": {
-      "bytes": 2263,
+      "bytes": 2258,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -12706,7 +12706,7 @@
       "format": "esm"
     },
     "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-      "bytes": 4582,
+      "bytes": 4577,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -13283,7 +13283,7 @@
     }
   },
   "outputs": {
-    "main-GIQVP5RR.js": {
+    "main-DQQPOWVS.js": {
       "imports": [
         {
           "path": "chunk-F4AHFKPT.js",
@@ -13337,10 +13337,10 @@
           "bytesInOutput": 5292
         },
         "node_modules/@mahindar5/ng-common-lib/fesm2022/mahindar5-ng-common-lib.mjs": {
-          "bytesInOutput": 1069
+          "bytesInOutput": 1064
         },
         "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-          "bytesInOutput": 1616
+          "bytesInOutput": 1611
         },
         "node_modules/@angular/material/fesm2022/progress-spinner.mjs": {
           "bytesInOutput": 8445
@@ -13364,7 +13364,7 @@
           "bytesInOutput": 122
         }
       },
-      "bytes": 51912
+      "bytes": 51902
     },
     "chunk-HFCJE2GR.js": {
       "imports": [
