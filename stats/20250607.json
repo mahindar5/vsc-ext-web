@@ -12766,8 +12766,8 @@
       ],
       "format": "esm"
     },
-    "node_modules/@angular/material/fesm2022/progress-spinner.mjs": {
-      "bytes": 14729,
+    "node_modules/@mahindar5/ng-common-lib/fesm2022/mahindar5-ng-common-lib-components-build-info.mjs": {
+      "bytes": 2996,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -12780,24 +12780,76 @@
           "original": "@angular/core"
         },
         {
-          "path": "node_modules/@angular/common/fesm2022/common.mjs",
+          "path": "node_modules/@mahindar5/common-lib/dist/index.js",
           "kind": "import-statement",
-          "original": "@angular/common"
+          "original": "@mahindar5/common-lib"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-common-navigation-menu.mjs": {
+      "bytes": 5352,
+      "imports": [
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
         },
         {
-          "path": "node_modules/@angular/material/fesm2022/animation-DfMFjxHu.mjs",
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
           "kind": "import-statement",
-          "original": "./animation-DfMFjxHu.mjs"
+          "original": "@angular/core"
         },
         {
-          "path": "node_modules/@angular/material/fesm2022/common-module-cKSwHniA.mjs",
+          "path": "node_modules/@angular/material/fesm2022/button.mjs",
           "kind": "import-statement",
-          "original": "./common-module-cKSwHniA.mjs"
+          "original": "@angular/material/button"
         },
         {
-          "path": "node_modules/@angular/cdk/fesm2022/layout.mjs",
+          "path": "node_modules/@angular/material/fesm2022/divider.mjs",
           "kind": "import-statement",
-          "original": "@angular/cdk/layout"
+          "original": "@angular/material/divider"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/expansion.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/expansion"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/expansion.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/expansion"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/icon.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/icon"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/list.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/list"
+        },
+        {
+          "path": "node_modules/@angular/router/fesm2022/router.mjs",
+          "kind": "import-statement",
+          "original": "@angular/router"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@angular/material/fesm2022/menu.mjs": {
+      "bytes": 60621,
+      "imports": [
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
+        },
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
         },
         {
           "path": "node_modules/@angular/cdk/fesm2022/a11y.mjs",
@@ -12805,9 +12857,89 @@
           "original": "@angular/cdk/a11y"
         },
         {
+          "path": "node_modules/@angular/cdk/fesm2022/keycodes.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/keycodes"
+        },
+        {
+          "path": "node_modules/rxjs/dist/esm/index.js",
+          "kind": "import-statement",
+          "original": "rxjs"
+        },
+        {
+          "path": "node_modules/rxjs/dist/esm/operators/index.js",
+          "kind": "import-statement",
+          "original": "rxjs/operators"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/private.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/private"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/structural-styles-CObeNzjn.mjs",
+          "kind": "import-statement",
+          "original": "./structural-styles-CObeNzjn.mjs"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/ripple-BYgV4oZC.mjs",
+          "kind": "import-statement",
+          "original": "./ripple-BYgV4oZC.mjs"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/portal.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/portal"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/animation-DfMFjxHu.mjs",
+          "kind": "import-statement",
+          "original": "./animation-DfMFjxHu.mjs"
+        },
+        {
           "path": "node_modules/@angular/cdk/fesm2022/bidi.mjs",
           "kind": "import-statement",
           "original": "@angular/cdk/bidi"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/overlay.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/overlay"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/scrolling.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/scrolling"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/index-BFRo2fUq.mjs",
+          "kind": "import-statement",
+          "original": "./index-BFRo2fUq.mjs"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/common-module-cKSwHniA.mjs",
+          "kind": "import-statement",
+          "original": "./common-module-cKSwHniA.mjs"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/platform.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/platform"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/coercion.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/coercion"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/layout.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/layout"
+        },
+        {
+          "path": "<runtime>",
+          "kind": "import-statement",
+          "external": true
         }
       ],
       "format": "esm"
@@ -12980,6 +13112,315 @@
           "path": "node_modules/@angular/material/fesm2022/common-module-cKSwHniA.mjs",
           "kind": "import-statement",
           "original": "./common-module-cKSwHniA.mjs"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@angular/material/fesm2022/slide-toggle.mjs": {
+      "bytes": 32735,
+      "imports": [
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
+        },
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
+        },
+        {
+          "path": "node_modules/@angular/forms/fesm2022/forms.mjs",
+          "kind": "import-statement",
+          "original": "@angular/forms"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/a11y.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/a11y"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/private.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/private"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/animation-DfMFjxHu.mjs",
+          "kind": "import-statement",
+          "original": "./animation-DfMFjxHu.mjs"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/structural-styles-CObeNzjn.mjs",
+          "kind": "import-statement",
+          "original": "./structural-styles-CObeNzjn.mjs"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/ripple-BYgV4oZC.mjs",
+          "kind": "import-statement",
+          "original": "./ripple-BYgV4oZC.mjs"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/internal-form-field-D5iFxU6d.mjs",
+          "kind": "import-statement",
+          "original": "./internal-form-field-D5iFxU6d.mjs"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/common-module-cKSwHniA.mjs",
+          "kind": "import-statement",
+          "original": "./common-module-cKSwHniA.mjs"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/layout.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/layout"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/platform.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/platform"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/coercion.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/coercion"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/bidi.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/bidi"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-common-theme-picker.mjs": {
+      "bytes": 24716,
+      "imports": [
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
+        },
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
+        },
+        {
+          "path": "node_modules/@angular/forms/fesm2022/forms.mjs",
+          "kind": "import-statement",
+          "original": "@angular/forms"
+        },
+        {
+          "path": "node_modules/@angular/forms/fesm2022/forms.mjs",
+          "kind": "import-statement",
+          "original": "@angular/forms"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/form-field.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/form-field"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/form-field.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/form-field"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/icon.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/icon"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/icon.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/icon"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/select.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/select"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/select.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/select"
+        },
+        {
+          "path": "node_modules/@mahindar5/common-lib/dist/index.js",
+          "kind": "import-statement",
+          "original": "@mahindar5/common-lib"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/button.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/button"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/button.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/button"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/menu.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/menu"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/menu.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/menu"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/tooltip.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/tooltip"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/tooltip.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/tooltip"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/slide-toggle.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/slide-toggle"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/slide-toggle.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/slide-toggle"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-app.mjs": {
+      "bytes": 4403,
+      "imports": [
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
+        },
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/button.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/button"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/button.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/button"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/divider.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/divider"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/divider.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/divider"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/icon.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/icon"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/sidenav.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/sidenav"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/sidenav.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/sidenav"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/toolbar.mjs",
+          "kind": "import-statement",
+          "original": "@angular/material/toolbar"
+        },
+        {
+          "path": "node_modules/@angular/router/fesm2022/router.mjs",
+          "kind": "import-statement",
+          "original": "@angular/router"
+        },
+        {
+          "path": "node_modules/@mahindar5/common-lib/dist/index.js",
+          "kind": "import-statement",
+          "original": "@mahindar5/common-lib"
+        },
+        {
+          "path": "node_modules/@mahindar5/ng-common-lib/fesm2022/mahindar5-ng-common-lib-components-build-info.mjs",
+          "kind": "import-statement",
+          "original": "@mahindar5/ng-common-lib/components/build-info"
+        },
+        {
+          "path": "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-common-navigation-menu.mjs",
+          "kind": "import-statement",
+          "original": "@mahindar5/ng-common-mat-lib/common/navigation-menu"
+        },
+        {
+          "path": "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-common-theme-picker.mjs",
+          "kind": "import-statement",
+          "original": "@mahindar5/ng-common-mat-lib/common/theme-picker"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/build-info.ts": {
+      "bytes": 883,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/@angular/material/fesm2022/progress-spinner.mjs": {
+      "bytes": 14729,
+      "imports": [
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
+        },
+        {
+          "path": "node_modules/@angular/core/fesm2022/core.mjs",
+          "kind": "import-statement",
+          "original": "@angular/core"
+        },
+        {
+          "path": "node_modules/@angular/common/fesm2022/common.mjs",
+          "kind": "import-statement",
+          "original": "@angular/common"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/animation-DfMFjxHu.mjs",
+          "kind": "import-statement",
+          "original": "./animation-DfMFjxHu.mjs"
+        },
+        {
+          "path": "node_modules/@angular/material/fesm2022/common-module-cKSwHniA.mjs",
+          "kind": "import-statement",
+          "original": "./common-module-cKSwHniA.mjs"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/layout.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/layout"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/a11y.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/a11y"
+        },
+        {
+          "path": "node_modules/@angular/cdk/fesm2022/bidi.mjs",
+          "kind": "import-statement",
+          "original": "@angular/cdk/bidi"
         }
       ],
       "format": "esm"
@@ -13231,18 +13672,18 @@
       ],
       "format": "esm"
     },
-    "src/build-info.ts": {
-      "bytes": 883,
-      "imports": [],
-      "format": "esm"
-    },
     "src/main.ts": {
-      "bytes": 754,
+      "bytes": 1075,
       "imports": [
         {
           "path": "node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
           "kind": "import-statement",
           "original": "@angular/platform-browser"
+        },
+        {
+          "path": "@angular/router",
+          "kind": "import-statement",
+          "external": true
         },
         {
           "path": "node_modules/@mahindar5/common-lib/dist/index.js",
@@ -13255,14 +13696,19 @@
           "original": "@mahindar5/ng-common-mat-lib"
         },
         {
-          "path": "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-prompt-batch-runner.mjs",
+          "path": "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-app.mjs",
           "kind": "import-statement",
-          "original": "@mahindar5/ng-common-mat-lib/components/prompt-batch-runner"
+          "original": "@mahindar5/ng-common-mat-lib/components/app"
         },
         {
           "path": "src/build-info.ts",
           "kind": "import-statement",
           "original": "./build-info"
+        },
+        {
+          "path": "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-prompt-batch-runner.mjs",
+          "kind": "dynamic-import",
+          "original": "@mahindar5/ng-common-mat-lib/components/prompt-batch-runner"
         }
       ],
       "format": "esm"
@@ -13283,101 +13729,124 @@
     }
   },
   "outputs": {
-    "main-DQQPOWVS.js": {
+    "main-PJF3V3VE.js": {
       "imports": [
         {
-          "path": "chunk-F4AHFKPT.js",
+          "path": "chunk-OZXP4NT7.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-6FBS7IS2.js",
+          "path": "chunk-JPBLWRUK.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-BSXFXL3U.js",
+          "path": "chunk-RXHAESAK.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-KW6Z3WDC.js",
+          "path": "chunk-XGEBHQUN.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-BSV2VLEJ.js",
+          "path": "chunk-D6DMU3EI.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-SBZ33PS7.js",
+          "path": "chunk-S7ITV2AL.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-YBYEJB4I.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-HFCJE2GR.js",
+          "path": "chunk-P2Y6HXJ2.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-WPH34SDZ.js",
           "kind": "dynamic-import"
         },
         {
-          "path": "chunk-UENDOJV4.js",
+          "path": "chunk-YLWELJ5A.js",
           "kind": "dynamic-import"
         },
         {
-          "path": "chunk-SZJXH2XZ.js",
+          "path": "chunk-ZHJXUNAL.js",
           "kind": "dynamic-import"
         },
         {
-          "path": "chunk-W3VIAPGA.js",
+          "path": "chunk-DUO6NCSE.js",
+          "kind": "dynamic-import"
+        },
+        {
+          "path": "chunk-FWBXIV2E.js",
           "kind": "dynamic-import"
         }
       ],
-      "exports": [],
+      "exports": [
+        "routes"
+      ],
       "entryPoint": "src/main.ts",
       "inputs": {
         "node_modules/@angular/service-worker/fesm2022/service-worker.mjs": {
-          "bytesInOutput": 5292
+          "bytesInOutput": 5284
         },
         "node_modules/@mahindar5/ng-common-lib/fesm2022/mahindar5-ng-common-lib.mjs": {
-          "bytesInOutput": 1064
+          "bytesInOutput": 1063
         },
         "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-          "bytesInOutput": 1611
+          "bytesInOutput": 1607
         },
-        "node_modules/@angular/material/fesm2022/progress-spinner.mjs": {
-          "bytesInOutput": 8445
+        "node_modules/@mahindar5/ng-common-lib/fesm2022/mahindar5-ng-common-lib-components-build-info.mjs": {
+          "bytesInOutput": 1413
         },
-        "node_modules/@angular/material/fesm2022/module-CWxMD37a.mjs": {
-          "bytesInOutput": 17058
+        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-common-navigation-menu.mjs": {
+          "bytesInOutput": 1693
         },
-        "node_modules/@angular/material/fesm2022/tooltip.mjs": {
-          "bytesInOutput": 0
+        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-common-theme-picker.mjs": {
+          "bytesInOutput": 4426
         },
-        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-list-item-selector-dialog.mjs": {
-          "bytesInOutput": 3127
-        },
-        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-prompt-batch-runner.mjs": {
-          "bytesInOutput": 13072
+        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-app.mjs": {
+          "bytesInOutput": 1932
         },
         "src/build-info.ts": {
           "bytesInOutput": 690
         },
         "src/main.ts": {
-          "bytesInOutput": 122
+          "bytesInOutput": 211
         }
       },
-      "bytes": 51902
+      "bytes": 19417
     },
-    "chunk-HFCJE2GR.js": {
+    "chunk-WPH34SDZ.js": {
       "imports": [
         {
-          "path": "chunk-F4AHFKPT.js",
+          "path": "chunk-OZXP4NT7.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-KW6Z3WDC.js",
+          "path": "chunk-XGEBHQUN.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-HBDCSDGV.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-YBYEJB4I.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
           "kind": "import-statement"
         }
       ],
@@ -13390,12 +13859,12 @@
           "bytesInOutput": 3133
         }
       },
-      "bytes": 3639
+      "bytes": 3705
     },
-    "chunk-F4AHFKPT.js": {
+    "chunk-OZXP4NT7.js": {
       "imports": [
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-HBPRP2XP.js",
           "kind": "import-statement"
         }
       ],
@@ -13417,26 +13886,46 @@
       },
       "bytes": 73181
     },
-    "chunk-W3VIAPGA.js": {
+    "chunk-DUO6NCSE.js": {
       "imports": [
         {
-          "path": "chunk-PITVT2RG.js",
+          "path": "chunk-WYT36NWF.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-BSXFXL3U.js",
+          "path": "chunk-RXHAESAK.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-KW6Z3WDC.js",
+          "path": "chunk-XGEBHQUN.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-SBZ33PS7.js",
+          "path": "chunk-ZJEKYUON.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-S7ITV2AL.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBDCSDGV.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-YBYEJB4I.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-N3CRDPET.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
           "kind": "import-statement"
         }
       ],
@@ -13446,40 +13935,68 @@
       ],
       "entryPoint": "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-settings.mjs",
       "inputs": {},
-      "bytes": 202
+      "bytes": 342
     },
-    "chunk-UENDOJV4.js": {
+    "chunk-YLWELJ5A.js": {
       "imports": [
         {
-          "path": "chunk-7OOYZO5E.js",
+          "path": "chunk-4UPMGDZK.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-6FBS7IS2.js",
+          "path": "chunk-JPBLWRUK.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-PITVT2RG.js",
+          "path": "chunk-WYT36NWF.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-BSXFXL3U.js",
+          "path": "chunk-RXHAESAK.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-KW6Z3WDC.js",
+          "path": "chunk-XGEBHQUN.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-BSV2VLEJ.js",
+          "path": "chunk-LNVMKCME.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-SBZ33PS7.js",
+          "path": "chunk-ZJEKYUON.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-S7ITV2AL.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBDCSDGV.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-YBYEJB4I.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-XAPEHNMV.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-P2Y6HXJ2.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-N3CRDPET.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
           "kind": "import-statement"
         }
       ],
@@ -13496,24 +14013,32 @@
           "bytesInOutput": 7853
         }
       },
-      "bytes": 67499
+      "bytes": 67710
     },
-    "chunk-PVSJFFDA.js": {
+    "chunk-CC4RURB7.js": {
       "imports": [
         {
-          "path": "chunk-RWXONUHG.js",
+          "path": "chunk-SJTSWHG7.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-BSV2VLEJ.js",
+          "path": "chunk-XAPEHNMV.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-SBZ33PS7.js",
+          "path": "chunk-P2Y6HXJ2.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-N3CRDPET.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
           "kind": "import-statement"
         }
       ],
@@ -13526,44 +14051,72 @@
           "bytesInOutput": 825
         }
       },
-      "bytes": 1131
+      "bytes": 1187
     },
-    "chunk-SZJXH2XZ.js": {
+    "chunk-ZHJXUNAL.js": {
       "imports": [
         {
-          "path": "chunk-7OOYZO5E.js",
+          "path": "chunk-4UPMGDZK.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-6FBS7IS2.js",
+          "path": "chunk-JPBLWRUK.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-PITVT2RG.js",
+          "path": "chunk-WYT36NWF.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-BSXFXL3U.js",
+          "path": "chunk-RXHAESAK.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-KW6Z3WDC.js",
+          "path": "chunk-XGEBHQUN.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-RWXONUHG.js",
+          "path": "chunk-SJTSWHG7.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-BSV2VLEJ.js",
+          "path": "chunk-LNVMKCME.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-SBZ33PS7.js",
+          "path": "chunk-ZJEKYUON.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-S7ITV2AL.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBDCSDGV.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-YBYEJB4I.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-XAPEHNMV.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-P2Y6HXJ2.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-N3CRDPET.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
           "kind": "import-statement"
         }
       ],
@@ -13576,28 +14129,161 @@
           "bytesInOutput": 4274
         }
       },
-      "bytes": 4961
+      "bytes": 5167
     },
-    "chunk-7OOYZO5E.js": {
+    "chunk-4UPMGDZK.js": {
       "imports": [
         {
-          "path": "chunk-6FBS7IS2.js",
+          "path": "chunk-WYT36NWF.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-PITVT2RG.js",
+          "path": "chunk-LNVMKCME.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-BSV2VLEJ.js",
+          "path": "chunk-XAPEHNMV.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-SBZ33PS7.js",
+          "path": "chunk-QIVTLTAB.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a"
+      ],
+      "inputs": {
+        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-common-base-ai.mjs": {
+          "bytesInOutput": 1909
+        }
+      },
+      "bytes": 2285
+    },
+    "chunk-JPBLWRUK.js": {
+      "imports": [
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/sidenav.mjs": {
+          "bytesInOutput": 25872
+        }
+      },
+      "bytes": 26469
+    },
+    "chunk-WYT36NWF.js": {
+      "imports": [
+        {
+          "path": "chunk-RXHAESAK.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-XGEBHQUN.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-ZJEKYUON.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-S7ITV2AL.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBDCSDGV.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-YBYEJB4I.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-N3CRDPET.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b"
+      ],
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/line-Bz5f9Cyx.mjs": {
+          "bytesInOutput": 145
+        },
+        "node_modules/@angular/material/fesm2022/grid-list.mjs": {
+          "bytesInOutput": 150
+        },
+        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-settings.mjs": {
+          "bytesInOutput": 16021
+        }
+      },
+      "bytes": 17215
+    },
+    "chunk-RXHAESAK.js": {
+      "imports": [
+        {
+          "path": "chunk-YBYEJB4I.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b",
+        "c"
+      ],
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/option-BzhYL_xC.mjs": {
+          "bytesInOutput": 8398
+        },
+        "node_modules/@angular/material/fesm2022/index-DwiL-HGk.mjs": {
+          "bytesInOutput": 152
+        },
+        "node_modules/@angular/material/fesm2022/module-BDiw_nWS.mjs": {
+          "bytesInOutput": 25056
+        },
+        "node_modules/@angular/material/fesm2022/select.mjs": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 34463
+    },
+    "chunk-XGEBHQUN.js": {
+      "imports": [
+        {
+          "path": "chunk-HBPRP2XP.js",
           "kind": "import-statement"
         }
       ],
@@ -13609,212 +14295,42 @@
         "e"
       ],
       "inputs": {
-        "node_modules/@angular/material/fesm2022/sidenav.mjs": {
-          "bytesInOutput": 25883
-        },
-        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-common-base-ai.mjs": {
-          "bytesInOutput": 1932
-        }
-      },
-      "bytes": 28675
-    },
-    "chunk-6FBS7IS2.js": {
-      "imports": [
-        {
-          "path": "chunk-SBZ33PS7.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "chunk-32H34FR5.js",
-          "kind": "import-statement"
-        }
-      ],
-      "exports": [
-        "a",
-        "b"
-      ],
-      "inputs": {
-        "node_modules/@angular/material/fesm2022/snack-bar.mjs": {
-          "bytesInOutput": 14297
-        }
-      },
-      "bytes": 14835
-    },
-    "chunk-PITVT2RG.js": {
-      "imports": [
-        {
-          "path": "chunk-BSXFXL3U.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "chunk-KW6Z3WDC.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "chunk-SBZ33PS7.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "chunk-32H34FR5.js",
-          "kind": "import-statement"
-        }
-      ],
-      "exports": [
-        "a",
-        "b"
-      ],
-      "inputs": {
-        "node_modules/@angular/material/fesm2022/line-Bz5f9Cyx.mjs": {
-          "bytesInOutput": 146
-        },
-        "node_modules/@angular/material/fesm2022/grid-list.mjs": {
-          "bytesInOutput": 152
-        },
-        "node_modules/@angular/material/fesm2022/option-BzhYL_xC.mjs": {
-          "bytesInOutput": 8400
-        },
-        "node_modules/@angular/material/fesm2022/select.mjs": {
-          "bytesInOutput": 0
-        },
-        "node_modules/@angular/material/fesm2022/index-DwiL-HGk.mjs": {
-          "bytesInOutput": 152
-        },
-        "node_modules/@angular/material/fesm2022/module-BDiw_nWS.mjs": {
-          "bytesInOutput": 25067
-        },
-        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-settings.mjs": {
-          "bytesInOutput": 16040
-        }
-      },
-      "bytes": 51240
-    },
-    "chunk-BSXFXL3U.js": {
-      "imports": [
-        {
-          "path": "chunk-SBZ33PS7.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "chunk-32H34FR5.js",
-          "kind": "import-statement"
-        }
-      ],
-      "exports": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "j",
-        "k"
-      ],
-      "inputs": {
-        "node_modules/@angular/material/fesm2022/toolbar.mjs": {
-          "bytesInOutput": 3351
-        },
-        "node_modules/@angular/cdk/fesm2022/accordion.mjs": {
-          "bytesInOutput": 2576
-        },
-        "node_modules/@angular/material/fesm2022/expansion.mjs": {
-          "bytesInOutput": 16938
-        },
-        "node_modules/@angular/material/fesm2022/slider.mjs": {
-          "bytesInOutput": 35292
-        }
-      },
-      "bytes": 58941
-    },
-    "chunk-KW6Z3WDC.js": {
-      "imports": [
-        {
-          "path": "chunk-32H34FR5.js",
-          "kind": "import-statement"
-        }
-      ],
-      "exports": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "j",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "p",
-        "q",
-        "r",
-        "s"
-      ],
-      "inputs": {
         "node_modules/@angular/router/fesm2022/router-CsukTOog.mjs": {
-          "bytesInOutput": 64745
+          "bytesInOutput": 64662
         },
         "node_modules/@angular/router/fesm2022/router.mjs": {
           "bytesInOutput": 0
         },
         "node_modules/@angular/router/fesm2022/router_module-DTmwsUYo.mjs": {
-          "bytesInOutput": 659
-        },
-        "node_modules/@angular/material/fesm2022/card.mjs": {
-          "bytesInOutput": 6360
-        },
-        "node_modules/@angular/cdk/fesm2022/observers/private.mjs": {
-          "bytesInOutput": 1246
-        },
-        "node_modules/@angular/material/fesm2022/form-field-C9DZXojn.mjs": {
-          "bytesInOutput": 55092
-        },
-        "node_modules/@angular/material/fesm2022/module-DzZHEh7B.mjs": {
-          "bytesInOutput": 156
-        },
-        "node_modules/@angular/material/fesm2022/form-field.mjs": {
-          "bytesInOutput": 0
-        },
-        "node_modules/@angular/cdk/fesm2022/text-field.mjs": {
-          "bytesInOutput": 2350
-        },
-        "node_modules/@angular/material/fesm2022/input-value-accessor-D1GvPuqO.mjs": {
-          "bytesInOutput": 41
-        },
-        "node_modules/@angular/material/fesm2022/input.mjs": {
-          "bytesInOutput": 7552
-        },
-        "node_modules/@angular/material/fesm2022/error-options-DCNQlTOA.mjs": {
-          "bytesInOutput": 220
-        },
-        "node_modules/@angular/material/fesm2022/error-state-Dtb1IHM-.mjs": {
-          "bytesInOutput": 478
+          "bytesInOutput": 4168
         }
       },
-      "bytes": 140155
+      "bytes": 69547
     },
-    "chunk-RWXONUHG.js": {
+    "chunk-SJTSWHG7.js": {
       "imports": [
         {
-          "path": "chunk-BSV2VLEJ.js",
+          "path": "chunk-XAPEHNMV.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-SBZ33PS7.js",
+          "path": "chunk-P2Y6HXJ2.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-N3CRDPET.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-PVSJFFDA.js",
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-CC4RURB7.js",
           "kind": "dynamic-import"
         }
       ],
@@ -13829,16 +14345,256 @@
           "bytesInOutput": 7374
         }
       },
-      "bytes": 15682
+      "bytes": 15748
     },
-    "chunk-BSV2VLEJ.js": {
+    "chunk-FWBXIV2E.js": {
       "imports": [
         {
-          "path": "chunk-SBZ33PS7.js",
+          "path": "chunk-D6DMU3EI.js",
           "kind": "import-statement"
         },
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-LNVMKCME.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-ZJEKYUON.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-S7ITV2AL.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBDCSDGV.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-YBYEJB4I.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-XAPEHNMV.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-P2Y6HXJ2.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-N3CRDPET.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "PromptBatchRunnerComponent"
+      ],
+      "entryPoint": "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-prompt-batch-runner.mjs",
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/progress-spinner.mjs": {
+          "bytesInOutput": 8440
+        },
+        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-list-item-selector-dialog.mjs": {
+          "bytesInOutput": 3112
+        },
+        "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib-components-prompt-batch-runner.mjs": {
+          "bytesInOutput": 13053
+        }
+      },
+      "bytes": 25763
+    },
+    "chunk-D6DMU3EI.js": {
+      "imports": [
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b"
+      ],
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/module-CWxMD37a.mjs": {
+          "bytesInOutput": 17028
+        },
+        "node_modules/@angular/material/fesm2022/tooltip.mjs": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 17499
+    },
+    "chunk-LNVMKCME.js": {
+      "imports": [
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b"
+      ],
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/snack-bar.mjs": {
+          "bytesInOutput": 14297
+        }
+      },
+      "bytes": 14835
+    },
+    "chunk-ZJEKYUON.js": {
+      "imports": [
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b",
+        "c"
+      ],
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/slider.mjs": {
+          "bytesInOutput": 35278
+        }
+      },
+      "bytes": 35767
+    },
+    "chunk-S7ITV2AL.js": {
+      "imports": [
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ],
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/toolbar.mjs": {
+          "bytesInOutput": 3353
+        },
+        "node_modules/@angular/cdk/fesm2022/accordion.mjs": {
+          "bytesInOutput": 2571
+        },
+        "node_modules/@angular/material/fesm2022/expansion.mjs": {
+          "bytesInOutput": 16930
+        }
+      },
+      "bytes": 23501
+    },
+    "chunk-HBDCSDGV.js": {
+      "imports": [
+        {
+          "path": "chunk-YBYEJB4I.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/card.mjs": {
+          "bytesInOutput": 6354
+        },
+        "node_modules/@angular/cdk/fesm2022/text-field.mjs": {
+          "bytesInOutput": 2343
+        },
+        "node_modules/@angular/material/fesm2022/input-value-accessor-D1GvPuqO.mjs": {
+          "bytesInOutput": 40
+        },
+        "node_modules/@angular/material/fesm2022/input.mjs": {
+          "bytesInOutput": 7518
+        }
+      },
+      "bytes": 16712
+    },
+    "chunk-YBYEJB4I.js": {
+      "imports": [
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "inputs": {
+        "node_modules/@angular/cdk/fesm2022/observers/private.mjs": {
+          "bytesInOutput": 1243
+        },
+        "node_modules/@angular/material/fesm2022/form-field-C9DZXojn.mjs": {
+          "bytesInOutput": 55026
+        },
+        "node_modules/@angular/material/fesm2022/module-DzZHEh7B.mjs": {
+          "bytesInOutput": 153
+        },
+        "node_modules/@angular/material/fesm2022/form-field.mjs": {
+          "bytesInOutput": 0
+        },
+        "node_modules/@angular/material/fesm2022/error-options-DCNQlTOA.mjs": {
+          "bytesInOutput": 220
+        },
+        "node_modules/@angular/material/fesm2022/error-state-Dtb1IHM-.mjs": {
+          "bytesInOutput": 478
+        }
+      },
+      "bytes": 57758
+    },
+    "chunk-XAPEHNMV.js": {
+      "imports": [
+        {
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
           "kind": "import-statement"
         }
       ],
@@ -13852,36 +14608,75 @@
         "g",
         "h",
         "i",
-        "j",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o"
+        "j"
       ],
       "inputs": {
         "node_modules/@angular/cdk/fesm2022/dialog.mjs": {
-          "bytesInOutput": 10460
+          "bytesInOutput": 10448
         },
         "node_modules/@angular/material/fesm2022/module-Ce6F7TNm.mjs": {
-          "bytesInOutput": 17737
+          "bytesInOutput": 17715
         },
         "node_modules/@angular/material/fesm2022/dialog.mjs": {
           "bytesInOutput": 0
         },
-        "node_modules/@angular/material/fesm2022/list.mjs": {
-          "bytesInOutput": 58304
-        },
         "node_modules/@angular/material/fesm2022/progress-bar.mjs": {
-          "bytesInOutput": 10632
+          "bytesInOutput": 10634
         }
       },
-      "bytes": 98163
+      "bytes": 39526
     },
-    "chunk-SBZ33PS7.js": {
+    "chunk-P2Y6HXJ2.js": {
       "imports": [
         {
-          "path": "chunk-32H34FR5.js",
+          "path": "chunk-QIVTLTAB.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/list.mjs": {
+          "bytesInOutput": 58746
+        }
+      },
+      "bytes": 59420
+    },
+    "chunk-N3CRDPET.js": {
+      "imports": [
+        {
+          "path": "chunk-HBPRP2XP.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "a",
+        "b"
+      ],
+      "inputs": {
+        "node_modules/@angular/material/fesm2022/internal-form-field-D5iFxU6d.mjs": {
+          "bytesInOutput": 1154
+        },
+        "node_modules/@angular/material/fesm2022/checkbox.mjs": {
+          "bytesInOutput": 25617
+        }
+      },
+      "bytes": 27186
+    },
+    "chunk-QIVTLTAB.js": {
+      "imports": [
+        {
+          "path": "chunk-HBPRP2XP.js",
           "kind": "import-statement"
         }
       ],
@@ -13902,8 +14697,6 @@
         "N",
         "O",
         "P",
-        "Q",
-        "R",
         "a",
         "b",
         "c",
@@ -13944,6 +14737,12 @@
         "node_modules/@mahindar5/common-lib/dist/chunk-WVP4WJ5M.js": {
           "bytesInOutput": 636
         },
+        "node_modules/@mahindar5/common-lib/dist/chunk-MB43J5Z2.js": {
+          "bytesInOutput": 96
+        },
+        "node_modules/@mahindar5/common-lib/dist/chunk-JIMKSWWK.js": {
+          "bytesInOutput": 1943
+        },
         "node_modules/@mahindar5/common-lib/dist/chunk-FX6FTCGN.js": {
           "bytesInOutput": 49
         },
@@ -13981,7 +14780,7 @@
           "bytesInOutput": 3640
         },
         "node_modules/@mahindar5/common-lib/dist/chunk-RCG44Z4W.js": {
-          "bytesInOutput": 5253
+          "bytesInOutput": 5248
         },
         "node_modules/@mahindar5/common-lib/dist/chunk-SUXFXN6P.js": {
           "bytesInOutput": 86
@@ -14011,7 +14810,7 @@
           "bytesInOutput": 10957
         },
         "node_modules/@firebase/firestore/dist/lite/index.browser.esm2017.js": {
-          "bytesInOutput": 53781
+          "bytesInOutput": 53764
         },
         "node_modules/firebase/firestore/lite/dist/esm/index.esm.js": {
           "bytesInOutput": 0
@@ -14041,16 +14840,16 @@
           "bytesInOutput": 138
         },
         "node_modules/@opentelemetry/api/build/esm/version.js": {
-          "bytesInOutput": 15
+          "bytesInOutput": 14
         },
         "node_modules/@opentelemetry/api/build/esm/internal/semver.js": {
-          "bytesInOutput": 619
+          "bytesInOutput": 618
         },
         "node_modules/@opentelemetry/api/build/esm/internal/global-utils.js": {
-          "bytesInOutput": 843
+          "bytesInOutput": 836
         },
         "node_modules/@opentelemetry/api/build/esm/diag/ComponentLogger.js": {
-          "bytesInOutput": 1293
+          "bytesInOutput": 1292
         },
         "node_modules/@opentelemetry/api/build/esm/diag/types.js": {
           "bytesInOutput": 184
@@ -14059,7 +14858,7 @@
           "bytesInOutput": 279
         },
         "node_modules/@opentelemetry/api/build/esm/api/diag.js": {
-          "bytesInOutput": 1628
+          "bytesInOutput": 1626
         },
         "node_modules/@opentelemetry/api/build/esm/context/context.js": {
           "bytesInOutput": 384
@@ -14068,7 +14867,7 @@
           "bytesInOutput": 829
         },
         "node_modules/@opentelemetry/api/build/esm/api/context.js": {
-          "bytesInOutput": 1180
+          "bytesInOutput": 1179
         },
         "node_modules/@opentelemetry/api/build/esm/trace/trace_flags.js": {
           "bytesInOutput": 81
@@ -14107,7 +14906,7 @@
           "bytesInOutput": 24
         },
         "node_modules/@opentelemetry/api/build/esm/api/trace.js": {
-          "bytesInOutput": 752
+          "bytesInOutput": 751
         },
         "node_modules/@opentelemetry/api/build/esm/trace-api.js": {
           "bytesInOutput": 24
@@ -14118,29 +14917,17 @@
         "node_modules/@mahindar5/common-lib/dist/chunk-JHAX5IKE.js": {
           "bytesInOutput": 1455
         },
-        "node_modules/@mahindar5/common-lib/dist/chunk-MB43J5Z2.js": {
-          "bytesInOutput": 96
-        },
-        "node_modules/@mahindar5/common-lib/dist/chunk-JIMKSWWK.js": {
-          "bytesInOutput": 1943
-        },
         "node_modules/@angular/material/fesm2022/divider.mjs": {
-          "bytesInOutput": 1311
-        },
-        "node_modules/@angular/material/fesm2022/internal-form-field-D5iFxU6d.mjs": {
-          "bytesInOutput": 1156
-        },
-        "node_modules/@angular/material/fesm2022/checkbox.mjs": {
-          "bytesInOutput": 25688
+          "bytesInOutput": 1313
         },
         "node_modules/@angular/cdk/fesm2022/portal.mjs": {
-          "bytesInOutput": 5153
+          "bytesInOutput": 5154
         },
         "node_modules/@angular/cdk/fesm2022/scrolling.mjs": {
-          "bytesInOutput": 5311
+          "bytesInOutput": 5312
         },
         "node_modules/@angular/cdk/fesm2022/overlay-module-Bd2UplUU.mjs": {
-          "bytesInOutput": 40862
+          "bytesInOutput": 40869
         },
         "node_modules/@angular/cdk/fesm2022/overlay.mjs": {
           "bytesInOutput": 0
@@ -14155,15 +14942,15 @@
           "bytesInOutput": 0
         },
         "node_modules/@angular/material/fesm2022/pseudo-checkbox-DDmgx3P4.mjs": {
-          "bytesInOutput": 4138
+          "bytesInOutput": 4140
         },
         "node_modules/@angular/material/fesm2022/pseudo-checkbox-module-4F8Up4PL.mjs": {
           "bytesInOutput": 145
         }
       },
-      "bytes": 209203
+      "bytes": 182063
     },
-    "chunk-32H34FR5.js": {
+    "chunk-HBPRP2XP.js": {
       "imports": [],
       "exports": [
         "$",
@@ -14234,22 +15021,27 @@
         "Ma",
         "Mb",
         "Mc",
+        "Md",
         "N",
         "Na",
         "Nb",
         "Nc",
+        "Nd",
         "O",
         "Oa",
         "Ob",
         "Oc",
+        "Od",
         "P",
         "Pa",
         "Pb",
         "Pc",
+        "Pd",
         "Q",
         "Qa",
         "Qb",
         "Qc",
+        "Qd",
         "R",
         "Ra",
         "Rb",
@@ -14422,6 +15214,9 @@
         "zd"
       ],
       "inputs": {
+        "node_modules/tslib/tslib.es6.mjs": {
+          "bytesInOutput": 2562
+        },
         "node_modules/@angular/core/fesm2022/primitives/di.mjs": {
           "bytesInOutput": 223
         },
@@ -14532,9 +15327,6 @@
         },
         "node_modules/rxjs/dist/esm/internal/util/args.js": {
           "bytesInOutput": 186
-        },
-        "node_modules/tslib/tslib.es6.mjs": {
-          "bytesInOutput": 2562
         },
         "node_modules/rxjs/dist/esm/internal/util/isArrayLike.js": {
           "bytesInOutput": 61
@@ -14750,7 +15542,7 @@
           "bytesInOutput": 0
         },
         "node_modules/@angular/core/fesm2022/debug_node-JnOYh9kg.mjs": {
-          "bytesInOutput": 97092
+          "bytesInOutput": 97798
         },
         "node_modules/@angular/core/fesm2022/resource-BarKSp_3.mjs": {
           "bytesInOutput": 2469
@@ -14921,7 +15713,7 @@
           "bytesInOutput": 1051
         }
       },
-      "bytes": 356967
+      "bytes": 357711
     },
     "styles-RNCQ2W6J.css": {
       "imports": [],
