@@ -13375,7 +13375,7 @@
       "format": "esm"
     },
     "src/build-info.ts": {
-      "bytes": 883,
+      "bytes": 949,
       "imports": [],
       "format": "esm"
     },
@@ -13729,7 +13729,7 @@
     }
   },
   "outputs": {
-    "main-G37XX4KO.js": {
+    "main-AJL44JNY.js": {
       "imports": [
         {
           "path": "chunk-OZXP4NT7.js",
@@ -13819,13 +13819,13 @@
           "bytesInOutput": 1932
         },
         "src/build-info.ts": {
-          "bytesInOutput": 690
+          "bytesInOutput": 699
         },
         "src/main.ts": {
           "bytesInOutput": 211
         }
       },
-      "bytes": 19417
+      "bytes": 19426
     },
     "chunk-WPH34SDZ.js": {
       "imports": [
