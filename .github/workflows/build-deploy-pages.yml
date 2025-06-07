@@ -19,4 +19,4 @@ jobs:
     uses: mahindar5/ng-pwa-app/.github/workflows/common-build-deploy-pages.yml@main
     with:
       base-href: "/vsc-ext-web/"
-      npm-packages: "@mahindar5/common-lib@latest @mahindar5/ng-common-mat-lib@latest"
+      npm-packages: "@mahindar5/common-lib@latest @mahindar5/ng-common-lib@latest @mahindar5/ng-common-mat-lib@latest"
