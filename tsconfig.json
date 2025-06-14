@@ -18,9 +18,9 @@
 		// 	"node_modules/@types"
 		// ],
 		"paths": {
-			// "@mahindar5/common-lib": [
-			// 	"../common-lib/dist/"
-			// ],
+			"@mahindar5/common-lib": [
+				"../common-lib/dist/"
+			],
 			"@mahindar5/ng-common-mat-lib/*": [
 				"../ng-mat-app/dist/ng-common-mat-lib/*"
 			],
@@ -33,9 +33,9 @@
 			"@mahindar5/ng-common-lib": [
 				"../ng-mat-app/dist/ng-common-lib"
 			],
-			"@mahindar5/common-lib": [
-				"../common-lib/src/"
-			],
+			// "@mahindar5/common-lib": [
+			// 	"../common-lib/src/"
+			// ],
 			// "@mahindar5/ng-common-mat-lib/*": [
 			// 	"../ng-mat-app/projects/ng-common-mat-lib/*"
 			// ],
