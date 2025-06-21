@@ -1,6 +1,7 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { Routes } from '@angular/router';
 import { fetchProxy } from '@mahindar5/common-lib';
+import { AuthGuard } from '@mahindar5/ng-common-lib';
 import { configureApplication } from '@mahindar5/ng-common-mat-lib';
 import { AppComponent } from '@mahindar5/ng-common-mat-lib/components/app';
 import { BUILD_INFO } from './build-info';
@@ -8,6 +9,7 @@ import { BUILD_INFO } from './build-info';
 fetchProxy();
 // Importing AppComponent
 export const routes: Routes = [{
+	canActivate: [AuthGuard],
 	path: '', loadComponent: () => import('@mahindar5/ng-common-mat-lib/components/prompt-batch-runner').then(m => m.PromptBatchRunnerComponent),
 }]
 bootstrapApplication(AppComponent, await configureApplication(routes, {
