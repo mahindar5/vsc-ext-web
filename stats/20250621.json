@@ -13411,7 +13411,7 @@
       "format": "esm"
     },
     "src/build-info.ts": {
-      "bytes": 925,
+      "bytes": 952,
       "imports": [],
       "format": "esm"
     },
@@ -13709,7 +13709,7 @@
       "format": "esm"
     },
     "src/main.ts": {
-      "bytes": 1075,
+      "bytes": 1105,
       "imports": [
         {
           "path": "node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
@@ -13765,7 +13765,7 @@
     }
   },
   "outputs": {
-    "main-BRJ5JV7F.js": {
+    "main-M4HT2Z3J.js": {
       "imports": [
         {
           "path": "chunk-OZXP4NT7.js",
@@ -13858,13 +13858,13 @@
           "bytesInOutput": 1951
         },
         "src/build-info.ts": {
-          "bytesInOutput": 677
+          "bytesInOutput": 704
         },
         "src/main.ts": {
           "bytesInOutput": 211
         }
       },
-      "bytes": 20504
+      "bytes": 20531
     },
     "chunk-MJLL5GRP.js": {
       "imports": [
